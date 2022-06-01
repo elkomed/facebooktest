@@ -1,0 +1,109 @@
+
+/*login page*/
+
+
+
+.login-title{
+   grid-area: login-title;
+   padding: 0 20px;
+}
+
+.login-title h1{
+  color: #1877f2;
+  font-size: 4rem;
+  margin: 15px;
+}
+
+.login-title p{
+  font-size: 1.5rem;
+}
+
+.login-form{
+  grid-area: login-form;
+  width: 340px ;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 20%);
+  margin: 0 auto;
+}
+.login-form .form-row{
+  margin: 5px 0;
+}
+
+.login-form .form-infos p a{
+  text-decoration: none;
+  color: #1877f2;
+}
+
+.login-form .form-button .bt-login-submit{
+ background-color: #1877f2;
+ color: white;
+ width: 95%;
+}
+.login-form .form-button .bt-login-create-account{
+ background-color: #42b72a;
+ color: white;
+ width: 70%;
+margin-top: -25px;}
+
+.login-form .divider{
+  border:  0.1px solid gray;
+  width: 95%;
+  margin: 20% auto;
+}
+
+.login-form .form-row input{
+  height: 50px;
+  font-size: 1.2rem;
+  width: 95% ;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.login-footer{
+  grid-area: login-footer;
+  width: 340px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.login-footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.container-login{
+  display: grid;
+  height: 100vh;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 450px 1fr;
+  grid-template-areas: "login-title" "login-form" "login-footer";
+}
+
+@media screen and (min-width: 900px){
+  .container-login{
+      text-align: center;
+      height: 75vh;
+      padding: 100px 50px;
+      grid-template-columns: 360px 1fr;
+      grid-template-rows: 430px 200px;
+      grid-template-areas: "login-title login-form" "none login-footer";
+  }
+  .login-title{
+      text-align: left;
+      align-self: center;
+  }
+  .login-form{
+     width: 400px;
+  }
+}
+
+@media screen and (min-width: 1450px){
+  .container-login{
+      grid-template-columns: 600px 400px;
+      justify-content: center;
+
+  }
+
+}

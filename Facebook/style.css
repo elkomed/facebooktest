@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+
+button{
+    border: none;
+    padding: 15px;
+    font-size: 1,5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 
+.login-title{
+     grid-area: login-title;
+     padding: 0 20px;
+}
+.login-title h1{
+    color: #1877f2;
+    font-size: 4rem;
+    margin: 15px;
+}
+.login-title p{
+    font-size: 1.5rem;
+}
+.login-form{
+    grid-area: login-form;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin: 0 20px;
+    width: 400px ;
+}
+.login-form .form-row{
+    margin: 5px 0;
+}
+.login-form .form-row input{
+    height: 40px;
+    font-size: 1.2rem;
+    width: 95% ;
+    bord
+}
+
+.login-footer{
+    grid-area: login-footer;
+}
+
+.container-login{
+    display: grid;
+    height: 100vh;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: "login-title" "login-form" "login-footer";
+}
+
+@media screen and (min-width: 900px){
+    .container-login{
+        text-align: center;
+        height: 75vh;
+        padding: 100px 50px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 200px;
+        grid-template-areas: "login-title login-form" "none login-footer";
+    }
+} */
